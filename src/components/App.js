@@ -9,7 +9,7 @@ const App = () => {
   const [selectedOption, setSelectedOption] = useState('')
 
   return (
-    <div>
+    <div className="parent">
         {/* Do not remove the main div */}
         <h2>Parent Component</h2>
         <ChildComponent1 setSelectedOption={setSelectedOption}/>
